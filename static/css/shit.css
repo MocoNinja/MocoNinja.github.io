@@ -1,0 +1,75 @@
+body {
+    font-family: 'Fira Sans';
+    background-color: black;
+    color: lime;
+    background-image: url("../img/mad-space.gif");
+}
+
+p {
+    font-family: "K2D";
+    color: lemonchiffon;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+img {
+    width: 250px;
+}
+
+img#best_doggo_ever {
+    left: 50px;
+    top: 20px;
+    width: 250px;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul.nav-bar {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li.nav-item {
+    display: inline-block;
+    margin: auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 8px;
+}
+li.nav-item > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17pt;
+    color: yellow;
+}
+
+li.nav-item:hover {
+    border-bottom: 4px solid greenyellow;
+}
+
+li.nav-item.active {
+    border-bottom: 4px solid white;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
